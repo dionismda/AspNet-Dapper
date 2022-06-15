@@ -30,7 +30,7 @@ namespace AspNet_Dapper.Repositories
                 query,
                 (user, role) =>
                 {
-                    var usr = users.FirstOrDefault(x => x.Id == user.Id);
+                    User? usr = users.FirstOrDefault(x => x.Id == user.Id);
                     if (usr == null)
                     {
                         usr = user;
@@ -38,7 +38,9 @@ namespace AspNet_Dapper.Repositories
                         users.Add(usr);
                     }
                     else
+                    {
                         usr.Roles.Add(role);
+                    }                        
 
                     return user;
                 },
