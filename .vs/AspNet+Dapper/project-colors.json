@@ -5,7 +5,12 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "fd62d5f7-d4ac-4dd2-a724-307148169734": {
+      "ProjectGuid": "fd62d5f7-d4ac-4dd2-a724-307148169734",
+      "DisplayName": "AspNet+Dapper",
+      "ColorIndex": 0
     }
   },
-  "NextColorIndex": 0
+  "NextColorIndex": 1
 }

@@ -6,7 +6,7 @@ namespace AspNet_Dapper
 {
     class Program
     {
-        private const string CONNECTION_STRING = @"Server=localhost,1433;Database=Blog;User ID=sa;Password=Futur@1313;TrustServerCertificate=True";
+        private const string CONNECTION_STRING = @"Server=localhost,1433;Database=Blog;User ID=sa;Password=xxXXxx;TrustServerCertificate=True";
 
         static void Main(string[] args)
         {
